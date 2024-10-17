@@ -8,7 +8,6 @@
 
         @vite('resources/js/app.js')
 
-        @include('partials.head-imports')
     </head>
     <body>
 
@@ -21,8 +20,6 @@
         </main>
 
         @include('partials.main-footer')
-
-        @include('partials.body-imports')
 
     </body>
 </html>
